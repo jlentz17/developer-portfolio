@@ -9,12 +9,15 @@
 </head>
 
 <body>
+    <!-- navigation -->
     <header>
         <h1 class="headerTitle">
             <a href="/">JEREMY DONALD LENTZ</a>
         </h1>
         <nav>
+        <!-- Unordered list element -->    
             <ul>
+            <!-- List item elements linking to different section on page-->    
                 <li><a href="#about">01. About</a></li>
 
                 <li><a href="#experience">02. Experience</a></li>
@@ -28,17 +31,19 @@
         </nav>
     </header>
 
-
+    <!-- banner/intro section? -->
     <section class="headline">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ab nostrum repudiandae velit, illo
             aut laboriosam dolorum doloribus consequatur minus nihil soluta, nisi ad nemo. Consectetur ipsa sed
             reprehenderit maxime!</p>
     </section>
 
+    <!-- hero section -->
     <section class="hero">
         <img src="" alt="">
     </section>
 
+    <!-- about section -->
     <section id="about" class="about">
         <div class="aboutContainer">
             <div class="aboutImageContainer"></div>
@@ -50,6 +55,7 @@
         </div>
     </section>
 
+    <!-- experience section -->
     <section id="experience" class="experience">
         <h2>Experience</h2>
         <article>
@@ -63,6 +69,7 @@
         </article>
     </section>
 
+    <!-- work section -->
     <section id="work" class="work">
         <article class="sectionTitle">
             <h2>Work</h2>
@@ -78,6 +85,7 @@
 
     </section>
 
+    <!-- form -->
     <section id="contact" class="contact">
         <h2>Reach Out!!</h2>
         <p></p>
@@ -85,21 +93,19 @@
             <h3>Contact</h3>
             <form>
                 <label for="contactName">Your Name:</label>
+                <input type="text" id="contactName" name="contactName" placeholder="Your Name">
 
-                <input type="text" id="contactName" placeholder="Your Name">
-
-                <label for="contactEmail">Your Name:</label>
-
-                <input type="email" id="contactEmail" placeholder="Your Email:">
+                <label for="contactEmail">Your Email:</label>
+                <input type="email" id="contactEmail"
+                name="contactEmail" placeholder="Your Email:">
 
                 <label for="contactMessage">Your Message:</label>
+                <textarea id="contactMessage" 
+                name="contactMessage" placeholder="Your Message:"></textarea>
 
-                <textarea id="contactMessage" placeholder="Your Message:"></textarea>
-
-                <button type="button">Submit</button>
+                <button type="button">Let's Talk!</button>
             </form>
         </div>
-
     </section>
 
     <footer>
