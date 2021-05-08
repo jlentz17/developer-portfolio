@@ -1,9 +1,137 @@
 :root {
-    --primary-color: 
+  --primary-color: rgba(21, 36, 124, 0.562);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+  display: flex;
+  padding: 20px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+header h1 a:link,
+header h1 a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a:link,
+nav a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+section {
+  text-align: center;
+}
+
+section h2 {
+  padding: 20px;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 1px 2px 8px black;
+}
+
+.headline {
+    text-align: center;
+    margin:auto;
+    padding:50px;
+    background-color: tomato;
+    font-weight: bold;
+    color: rgb(11, 66, 61);
+    border-top: 7px solid;
+}
+
+.hero {
+  padding: 50px 0;
+  background-color: aqua;
+  border-top: 7px solid;
+}
+
+.hero img {
+  align-items: center;
+  display: flex;
+  margin: auto;
+  width: 30%;
+}
+
+.about {
+  display:flex;border-top: 5px solid;
+  padding-bottom: 15px;
+  background-color: var(--primary-color);
+}
+
+.aboutContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  color:
+  font-size: 30px;
+  border-top: 7px solid;
+}
+
+.introText {
+  display: flex;
+  padding: 20px;
+  width: 40%;
+  margin: 3.5%;
+  box-shadow: 0 0 10px rgb(0 0 0 /40%);
+  border-radius: 10px;
+}
+
+.introImage {
+  text-align: left;
+  padding: 40px;
+  width: 100%;
+}
+
+.experience {
+  background-color: burlywood;
+  border-top: 7px solid;
+}
+
+.experience article {
+  padding-bottom: 30px;
+}
+
+.work {
+  border-top: 7px solid;
+  padding-bottom: 30px;
 }
 
 
 
+
+
+.contact {
+  border-top: 7px solid;
+  background-color: brown;
+}
 
 /* #submitButton {
     margin-top: 21px;
