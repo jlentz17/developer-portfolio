@@ -81,7 +81,6 @@ section h2 {
 }
 
 .about {
-  display:flex;
   border-top: 5px solid;
   padding-bottom: 15px;
   background-color: var(--primary-color);
@@ -105,12 +104,14 @@ section h2 {
   box-shadow: 0 0 10px rgb(0 0 0 /40%);
   border-radius: 10px;
   border: 2.5px solid darkblue;
+  margin-right: 170px;
 }
 
 .introImage {
   text-align: left;
   padding: 40px;
   width: 100%;
+  margin-left: 170px;
 }
 
 .experience {
@@ -124,7 +125,24 @@ section h2 {
 
 .work {
   border-top: 7px solid;
-  padding-bottom: 30px;
+  padding-bottom: 75px;
+}
+
+.allMyProjects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sectionTitle {
+  padding: 50px;
+}
+
+.sectionTitle h2,
+.sectionTitle h3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 
