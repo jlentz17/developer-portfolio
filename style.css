@@ -27,11 +27,15 @@ header h1 a:link,
 header h1 a:visited{
     text-decoration: none;
     color: black;
+    font-family: monospace;
+    font-size: 35px;
 }
 
 header nav ul {
     display: flex;
     list-style: none;
+    font-family: monospace;
+    font-size: 22px;
 }
 
 nav li {
