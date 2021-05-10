@@ -14,7 +14,7 @@ html {
 
 header {
   display: flex;
-  padding: 20px 35px;
+  padding: 20px 10px 35px 35px;
   justify-content: space-between;
   flex-wrap: wrap;
   position: -webkit-sticky;
@@ -27,7 +27,7 @@ header h1 a:link,
 header h1 a:visited{
     text-decoration: none;
     color: black;
-    font-family: monospace;
+    font-family: cursive;
     font-size: 35px;
 }
 
@@ -40,6 +40,13 @@ header nav ul {
 
 nav li {
   margin-right: 20px;
+}
+
+header nav ul li a:hover {
+  background-color: brown;
+  color: rgb(25, 80, 151)
+  border-radius: 5px;
+  text-shadow: none;
 }
 
 nav a:link,
@@ -199,6 +206,10 @@ section h2 {
   padding-bottom: 30px;
 }
 
+.contactName {
+  background-color: rgba(255, 255, 255, 1);
+}
+
 .contactForm h3{
   font-size: x-large;
 }
@@ -240,18 +251,58 @@ button {
   border-radius: 23px;
 }
 
-@media screen and (max-width: 1024px) {
-  
-}
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  footer h2, footer div {
+    text-align: center;
+    width: 100%;
+  }
+
+  .heroCta {
+    width: 100%;
+    text-align: center;
+  }
+
+  .heroCta {
+    text-align: center;
+  }
+
 @media screen and (max-width: 768px) {
+  section {
+    padding-bottom: 30px 15px;
+  }
+
+  .myWorkOne img {
+    flex: 0 32%;
+    margin-right: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
   
 }
-@media screen and (max-width: 600px) {
-  
-}
-@media screen and (max-width: 480px) {
-  
-}
-@media screen and (max-width: 300px) {
-  
+@media screen and (max-width: 575px) {
+  .intro p {
+    width: 100%;
+  } 
 }
