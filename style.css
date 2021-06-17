@@ -44,8 +44,8 @@ nav li {
 
 header nav ul li a:hover {
   background-color: brown;
-  color: rgb(25, 80, 151)
-  border-radius: 5px;
+  color: rgb(25, 80, 151);
+  border-radius: 4px;
   text-shadow: none;
 }
 
@@ -102,7 +102,7 @@ section h2 {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  color:
+  color: greenyellow;
   font-size: 30px;
   border-top: 7px solid;
 }
