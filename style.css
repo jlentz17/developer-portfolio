@@ -144,6 +144,9 @@ section h2 {
   flex-wrap: wrap;
   justify-content: space-between;
   padding-bottom: 70px;
+  background-color: bisque;
+  border-top: 7px solid;
+  border-bottom: 7px solid;
 }
 
 .myWorkOne a img {
@@ -174,18 +177,26 @@ section h2 {
   border-radius: 10%;
   box-shadow: 2px 2px 8px black;
 }
+.myWorkFive a img {
+  width: 300px;
+  height: 200px;
+  border: 0.5px solid black;
+  border-radius: 10%;
+  box-shadow: 2px 2px 8px black;
+}
 
 .myWorkOneContent,
 .myWorkTwoContent,
 .myWorkThreeContent,
-.myWorkFourContent {
+.myWorkFourContent,
+.myworkFiveContent {
   padding-bottom: 10px;
 }
 
-.aboutContainer h2,
+/* .aboutContainer h2,
 .aboutContainer h3 {
   
-}
+} */
 
 
 .sectionTitle {
@@ -253,7 +264,7 @@ button {
   border-radius: 23px;
 }
 
-@media screen and (max-width: 980px) {
+/* @media screen and (max-width: 980px) {
   header {
     padding-bottom: 0;
     justify-content: center;
@@ -306,5 +317,4 @@ button {
 @media screen and (max-width: 575px) {
   .intro p {
     width: 100%;
-  } 
-}
+  }  */
