@@ -1,24 +1,26 @@
 # Developer Portfolio
 
-Portfolio website to showcase my projects
+[For deployed version, click me!!!](https://jlentz17.github.io/developer-portfolio/)
 
-## Description
 
-Created a webpage from scratch using HTML and CSS to complete a portfolio website to show off all of our projects.
+# Description 
 
-## Installing
+## User Story
 
-[The project can be pulled from Github public page:](https://git@github.com:jlentz17/codeRefactor.git)
-branch: main
+AS A Web Developer<br>
+I WANT to create a really great portfolio<br>
+SO THAT I can get a great job<br>
 
-## Published On
 
-[Project url:](https://github.com/jlentz17/developer-portfolio)
+## Built With
 
-## Screenshots of Website :
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [CSS 3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [HTML 5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+* [Markdown](https://markdownguide.org/cheat-sheet/)
+* [Font Awesome](https://fontawesome.com/)
 
-![Getting Started](./Assets/images/ScreenShot.png)
 
-## Author
+## Contributors
 
-Jeremy Lentz
+Jeremy Lentz <br> 2021 <br> All rights reserved.
