@@ -44,9 +44,11 @@ nav li {
 
 header nav ul li a:hover {
   background-color: brown;
-  color: rgb(25, 80, 151);
-  border-radius: 4px;
+  color: rgb(13, 189, 142);
+  border-radius: 25px;
   text-shadow: none;
+  padding: 10px;
+  font-weight: bold;
 }
 
 nav a:link,
