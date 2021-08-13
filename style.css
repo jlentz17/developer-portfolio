@@ -139,6 +139,7 @@ section h2 {
 .work {
   border-top: 7px solid;
   padding-bottom: 75px;
+  /* margin-bottom: 10px; */
 }
 
 .allMyProjects {
@@ -156,7 +157,9 @@ section h2 {
   height: 200px;
   border: 0.5px solid black;
   border-radius: 10%;
+  margin-bottom: 20px;
   box-shadow: 2px 2px 8px black;
+
 }
 .myWorkTwo a img {
   width: 300px;
