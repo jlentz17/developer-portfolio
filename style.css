@@ -180,6 +180,15 @@ section h2 {
   box-shadow: 2px 2px 8px black;
 }
 .myWorkFive a img {
+  margin-top: 15px;
+  width: 300px;
+  height: 200px;
+  border: 0.5px solid black;
+  border-radius: 10%;
+  box-shadow: 2px 2px 8px black;
+}
+.myWorkSix a img {
+  margin-top: 15px;
   width: 300px;
   height: 200px;
   border: 0.5px solid black;
@@ -191,8 +200,9 @@ section h2 {
 .myWorkTwoContent,
 .myWorkThreeContent,
 .myWorkFourContent,
-.myworkFiveContent {
-  padding-bottom: 10px;
+.myworkFiveContent,
+.myWorkSixContent {
+  padding-bottom: 20px;
 }
 
 /* .aboutContainer h2,
